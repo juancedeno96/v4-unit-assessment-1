@@ -1,0 +1,136 @@
+header {
+    width: 50vw;
+    height: 10vh;
+    background-color: cyan ;
+    margin: 0 auto;
+    padding: 10px;
+}
+h2 {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50vw;
+
+}
+.Rectangles {
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    border-style: dotted;
+    
+}
+.purple-rectangle{
+    display: inline-block;
+    margin-left: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(91, 17, 160);
+    margin-top: 100px;
+    border: solid;
+    border-color: red;
+    
+
+}
+.blue-square {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-left: 20px;
+    box-shadow: 7px 7px 10px black;
+    
+}
+.salmon-square {
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    margin-left: 30px;
+    background-color: salmon;
+}
+.circles {
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    border-style: dotted;
+}
+.face {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.torso {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 30px;
+
+}
+.lower {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 20px;
+}
+.everything {
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    border-style: dotted;
+}
+.bisque-square {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 220px;
+    width: 220px;
+    background-color: bisque;
+    position: absolute;
+    z-index: 1;
+
+}
+.green-circle {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+}
+.maroon-square {
+    height: 90px;
+    width: 90px;
+    background-color: maroon;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    z-index: 3;
+}
+.blue-circle{
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    position: absolute;
+    z-index: 4;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+}

@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a version control system that allows users to keep track of changes in their code"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = 'Github is a service that allows users to push/pull code into and from remote repositories'
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init = {
+    description: 'The git init command creates a new Git repository' ,
+    code: 'git init'
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+let clone = {
+description:'git clone makes a copy of a repository from an outside source like GitHub',
+code: 'git clone'
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,11 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'git status allows one to see if a file in a tracked repository has been modified and also if any new files have been added',
+    code: 'git status'
 
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +68,10 @@
 */
 
 //CODE HERE
-
+let add = {
+    description: 'git add will add any changes to the repository to the staging area',
+    code: 'git add'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +79,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description: 'git commit saves your changes to the local git repository',
+    code: "git commit -m"
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +90,10 @@
 */
 
 //CODE HERE
-
+let addRemote = {
+    description: 'The git remote command lets you create, view, and delete connections to other repositories',
+    code: 'git remote add origin'
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +101,8 @@
 */
 
 //CODE HERE
+let push = {
+    description: "git push allows users to save their changes to a remote repositories such as those found on GitHub",
+    code: 'git push'
+
+}
